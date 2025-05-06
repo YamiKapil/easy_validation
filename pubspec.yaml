@@ -1,7 +1,8 @@
 name: easy_validation
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+license: MIT
+homepage: https://github.com/YamiKapil/easy_validation
 
 environment:
   sdk: '>=3.4.0 <4.0.0'

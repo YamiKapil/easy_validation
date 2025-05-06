@@ -1,43 +1,29 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
 
 Easy validator is a package that lets user to implement validation in any of the widget
 that they create in flutter.
 
 ## Features
 
-* Validate any widget in Flutter, not just form fields
-* Simple integration with existing widgets
-* Custom validation logic
-* Automatic validation triggers
-* Clean error message display
+- Validate any widget in Flutter, not just form fields
+- Simple integration with existing widgets
+- Custom validation logic
+- Automatic validation triggers
+- Clean error message display
 
 ## Getting started
 
 * Prerequisites
-    Flutter SDK installed
-    Basic knowledge of Flutter widgets and TextEditingController
+    - Flutter SDK installed
+    - Basic knowledge of Flutter widgets and TextEditingController
 * Installation
-    Add this to you pubspec.yaml file
-    dependencies:
-        easy_validator: ^1.0.0
+    - Add this to you pubspec.yaml file
+        dependencies:
+            easy_validator: ^1.0.0
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 * Basic Validation
+Basic validation example:
 ```dart
 EasyValidator<String>(
   controller: myController,
@@ -55,7 +41,7 @@ EasyValidator<String>(
 ```
 
 * Custom Widget Validation
-    Validate any widget by connecting it to a controller:
+Validate any widget by connecting it to a controller:
 ```dart
 EasyValidator<int>(
   controller: _sliderController,
