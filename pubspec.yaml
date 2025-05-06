@@ -1,5 +1,5 @@
 name: easy_widget_validation
-description: "A new Flutter package project."
+description: "Easy widget validation package to implement validation in any widget in flutter"
 version: 0.0.1
 license: MIT
 homepage: https://github.com/YamiKapil/easy_validation
