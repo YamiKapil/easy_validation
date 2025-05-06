@@ -1,12 +1,12 @@
 import "package:flutter/material.dart";
 
-class EasyValidation<T> extends StatefulWidget {
+class EasyWidgetValidation<T> extends StatefulWidget {
   final String? Function(T?) validator;
   final Widget child;
   final void Function(T?) onChanged;
   final TextEditingController controller;
 
-  const EasyValidation({
+  const EasyWidgetValidation({
     super.key,
     required this.validator,
     required this.onChanged,
@@ -15,10 +15,10 @@ class EasyValidation<T> extends StatefulWidget {
   });
 
   @override
-  EasyValidationState<T> createState() => EasyValidationState<T>();
+  EasyWidgetValidationState<T> createState() => EasyWidgetValidationState<T>();
 }
 
-class EasyValidationState<T> extends State<EasyValidation<T>> {
+class EasyWidgetValidationState<T> extends State<EasyWidgetValidation<T>> {
   late FormFieldState<T> _formFieldState;
   @override
   void initState() {
